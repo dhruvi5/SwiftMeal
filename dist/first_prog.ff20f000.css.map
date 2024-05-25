@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;AAKA","sources":["first_prog.css"],"sourcesContent":["#root{\r\n    color: rgb(129, 6, 28);\r\n    /* background-color: beige; */\r\n}\r\n\r\n#r{\r\n    align-items: center ;\r\n    text-align: center;\r\n}"],"names":[],"version":3,"file":"first_prog.ff20f000.css.map","sourceRoot":"/__parcel_source_root/"}

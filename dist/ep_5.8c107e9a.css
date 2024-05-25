@@ -1,0 +1,71 @@
+.header {
+  border: solid #000;
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo {
+  width: 150px;
+  margin-top: .01px;
+}
+
+.nav-items > ul {
+  margin-left: 700px;
+  padding-top: 5px;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  margin: 10px;
+  padding: 10px;
+}
+
+.nav-items > ul > li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.cart {
+  width: 50px;
+}
+
+.cart:hover {
+  cursor: pointer;
+}
+
+.res-cont {
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 60px;
+  display: flex;
+}
+
+.res-card {
+  width: 250px;
+  height: 350px;
+  margin: 20px;
+  padding-left: 10px;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.search {
+  padding: 10px;
+}
+
+.res-name {
+  text-align: center;
+  margin-top: 1px;
+  margin-right: 10px;
+}
+
+.noodles {
+  width: 230px;
+  height: 138px;
+  padding: 8px;
+}
+/*# sourceMappingURL=ep_5.8c107e9a.css.map */
