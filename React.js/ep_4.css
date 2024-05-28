@@ -1,0 +1,116 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: solid black;
+    width: 100%;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 0.0100px;
+}
+
+.nav-items>ul {
+    display: flex;
+    margin-left: 500px;
+    list-style-type: none;
+    padding-top: 5px;
+
+}
+
+.nav-items>ul>li {
+    padding: 10px;
+    margin: 10px;
+}
+
+.nav-items>ul>li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.cart {
+    width: 50px;
+
+}
+
+.login {
+    width: 70px;
+    height: 50px;
+    margin-top: 17px;
+    margin-left: 18px;
+}
+
+
+.cart:hover {
+    cursor: pointer;
+}
+
+.res-cont {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-left: 60px; */
+    width: 100%;
+}
+
+
+.res-card {
+    width: 250px;
+    height: 350px;
+    margin: 20px;
+    padding-left: 10px;
+}
+
+.res-card:hover {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.search {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res-name {
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 1px;
+}
+
+.noodles {
+    width: 230px;
+    height: 138px;
+    padding: 8px;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    /* Light grey */
+    border-top: 16px solid #3498db;
+    margin: 100px;
+    margin-left: 550px;
+    /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    align-items: center;
+}
+
+.shim-cont {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shim-cards {
+    width: 200px;
+    height: 250px;
+    background-color: rgb(167, 173, 179);
+    margin: 20px;
+}
+
+.fav {
+    display: flex;
+    flex-wrap: wrap;
+}

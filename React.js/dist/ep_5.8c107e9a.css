@@ -1,0 +1,109 @@
+.header {
+  border: solid #000;
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+}
+
+.logo {
+  width: 150px;
+  margin-top: .01px;
+}
+
+.nav-items > ul {
+  margin-left: 500px;
+  padding-top: 5px;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  margin: 10px;
+  padding: 10px;
+}
+
+.nav-items > ul > li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.cart {
+  width: 50px;
+}
+
+.login {
+  width: 70px;
+  height: 50px;
+  margin-top: 17px;
+  margin-left: 18px;
+}
+
+.cart:hover {
+  cursor: pointer;
+}
+
+.res-cont {
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+}
+
+.res-card {
+  width: 250px;
+  height: 350px;
+  margin: 20px;
+  padding-left: 10px;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.search {
+  flex-wrap: wrap;
+  padding: 10px;
+  display: flex;
+}
+
+.res-name {
+  text-align: center;
+  margin-top: 1px;
+  margin-right: 10px;
+}
+
+.noodles {
+  width: 230px;
+  height: 138px;
+  padding: 8px;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top-color: #3498db;
+  border-radius: 50%;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  margin: 100px 100px 100px 550px;
+  animation: 2s linear infinite spin;
+}
+
+.shim-cont {
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+}
+
+.shim-cards {
+  background-color: #a7adb3;
+  width: 200px;
+  height: 250px;
+  margin: 20px;
+}
+
+.fav {
+  flex-wrap: wrap;
+  display: flex;
+}
+/*# sourceMappingURL=ep_5.8c107e9a.css.map */
