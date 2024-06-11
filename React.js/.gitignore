@@ -1,4 +1,4 @@
 /node_modules
 /mockData.js
 /package.json
-.parcel-cache/
+/dist
