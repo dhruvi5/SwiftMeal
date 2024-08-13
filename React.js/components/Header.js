@@ -19,6 +19,7 @@ const Header = () => {
             <Link to="/">HOME</Link>
           </li>
           <li>
+            {/* //never use an anchor tag */}
             <a href="/about">ABOUT US</a>
           </li>
           <li>
