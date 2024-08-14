@@ -32,7 +32,6 @@ const Header = () => {
               set_log("Logout");
             }}
           >
-            {" "}
             {log_i}
           </button>
         </ul>

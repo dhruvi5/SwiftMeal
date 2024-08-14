@@ -89,7 +89,7 @@ const Body = () => {
         </button>
       </div>
 
-      <div className="res-cont">
+      <div className="restaurant-list">
         {/* {
                     l_s.map((restaurant) => (<RestrauntCards key="restaurant.data.id" resData={restaurant} />))
                 }
