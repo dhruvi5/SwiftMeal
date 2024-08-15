@@ -12,3 +12,5 @@
 4️⃣- Tech Stack: Utilized ReactJS, Tailwind CSS, Redux, and integrated APIs for a seamless experience.<br>
 5️⃣- Unique Offerings: From dynamic map location selection to persistent cart storage and engaging UI with shimmer effects.<br>
 </div>
+
+<h2>🌏 Live Demo - https://swift-meal.vercel.app/ </h2>
