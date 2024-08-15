@@ -33,13 +33,20 @@ const RestrauntCards = ({ resData }) => {
   } = resData;
   const Scuisines = cuisines.slice(0, 3);
   return (
-    <div className="card">
-      <img src={CDN_URL + cloudinaryImageId} />
-      <h3>{name}</h3>
-      <h5>{cuisines.join(", ")}</h5>
-      <h5>{areaName}</h5>
-      <span style={{ display: "flex", alignItems: "center" }}>
+    <div
+      className="m-4 p-4 h-[530px] w-[280px] rounded-lg 
+    hover:bg-slate-200 dark:hover:bg-slate-800 
+    transform hover:scale-105 transition-transform duration-300 
+    bg-white dark:bg-gray-800"
+    >
+      <img
+        className="rounded-lg h-[300px] w-[350px]"
+        src={CDN_URL + cloudinaryImageId}
+      />
+      <h3 className="font-bold font-serif text-center text-lg">{name}</h3>
+      <span className="flex items-center space-x-2 m-3">
         <h4
+          className="bg-light-red text-white px-1 py-0 rounded-md"
           style={{
             backgroundColor:
               avgRatingString < 4
@@ -55,11 +62,13 @@ const RestrauntCards = ({ resData }) => {
         >
           <i className="fa-solid fa-star"></i> {avgRatingString}
         </h4>
-        <h4>•</h4>
+        <h4 className="text-gray-600">•</h4>
         <h4>{sla?.lastMileTravelString ?? "2.0 km"}</h4>
-        <h4>•</h4>
+        <h4 className="text-gray-600">•</h4>
         <h4>{costForTwo ?? "₹200 for two"}</h4>
       </span>
+      <h5 className="m-3">{cuisines.join(", ")}</h5>
+      <h5 className="m-3">{areaName}</h5>
     </div>
   );
 };
